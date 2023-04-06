@@ -1,8 +1,0 @@
-n = int(input())
-is_prime = True
-
-for current_number in range(2, n):
-    if n % current_number == 0:
-        is_prime = False
-        break
-print(is_prime)
